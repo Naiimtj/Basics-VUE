@@ -35,7 +35,8 @@ export default defineComponent({
 })
 </script> -->
 
-<style scoped>
+<style scoped lang="scss">
+$red: #ff0000;
 .post-list{
   width: 95vw;
   height: 75px;
@@ -46,5 +47,6 @@ export default defineComponent({
   padding: 10px;
   width: 100%;
   border: 1px solid #ccc;
+  color: $red;
 }
 </style>
