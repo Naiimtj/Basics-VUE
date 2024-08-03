@@ -1,6 +1,6 @@
 <template>
     <h1>LISTADO DE POST</h1>
-    <ul class="post-list">
+    <ul class="post-list"  >
         <li v-for="post in posts" :key="post.id">{{post.title}}</li>
     </ul>
 </template >
@@ -36,7 +36,6 @@ export default defineComponent({
 </script> -->
 
 <style scoped lang="scss">
-$red: #ff0000;
 .post-list{
   width: 95vw;
   height: 75px;
